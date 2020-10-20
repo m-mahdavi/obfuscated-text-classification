@@ -1,0 +1,29 @@
+Which Novel Do I Belong To?
+
+In this task, you are expected to learn a Machine Learning model that classifies a given line as belonging to one of the following 12 novels:
+
+0: alice_in_wonderland
+1: dracula
+2: dubliners
+3: great_expectations
+4: hard_times
+5: huckleberry_finn
+6: les_miserable
+7: moby_dick
+8: oliver_twist
+9: peter_pan
+10: talw_of_two_cities
+11: tom_sawyer
+
+
+Description:
+
+You are provided with a zip file (offline_challenge.zip) containing three text files - xtrain.txt, ytrain.txt, xtest.txt. Each line in xtrain.txt and xtest.txt comes from a different novel. The data has been obfuscated, however the patterns in them are preserved. The novel ids corresponding to xtrain.txt are specified in ytrain.txt. You can use these labels to train a Machine Learning model (Deep Learning preferred).
+
+With the learned model, predict the novel ids of the lines in xtest.txt (one prediction per line). As part of your submission, include
+
+a) your predictions (in the same format as ytrain.txt)
+b) Expected accuracy on the test set
+c) the source code for training and prediction (< 10MB)
+d) a brief description of your method (optional)
+
